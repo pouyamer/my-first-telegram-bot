@@ -26,7 +26,7 @@ const getOperatingSystemName = function (platform) {
   }
 }
 
-const toTwoDigitFormat = number => (number < 10 ? `0number` : number)
+const toTwoDigitFormat = number => (number < 10 ? `0${number}` : number)
 
 // export wirh common js
 module.exports = {
